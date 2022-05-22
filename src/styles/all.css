@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Poppins:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins' , 'sans-serif';
+}
+
+body {
+  padding-bottom: 200px;
+}
+
+@media screen and (min-width: 0px) {
+  .home__hero nav {
+    width: 90px;
+    margin-left: auto;
+  }
+  .home__hero .image {
+    overflow: hidden;
+  }
+  .home__hero .image img {
+    margin-top: -320px;
+  }
+  .home__services article {
+    background-color: red;
+  }
+  .home__services #installation, .home__services #repairs, .home__services #sealing {
+    background: url("../../public/images/flooring-1.jpg");
+    background-size: 100% 100%;
+  }
+  .home__services #sealing {
+    background: url("../../public/images/flooring-4.jpg");
+  }
+  .home__services #repairs {
+    background: url("../../public/images/flooring-10.jpg");
+    background-size: 100% 100%;
+  }
+}
+/*# sourceMappingURL=all.css.map */

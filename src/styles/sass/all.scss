@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Poppins:wght@400;700&display=swap');
+*{
+    padding:0;
+    margin:0 ; 
+    box-sizing:border-box;
+    font-family: 'Poppins' , 'sans-serif';
+}
+body{
+    padding-bottom: 200px;
+}
+@media screen and (min-width : 0px) {
+    .home__hero{
+        nav{
+           width: 90px;
+           margin-left: auto;
+        }
+        .image{
+            overflow:hidden;
+            img{
+                margin-top: -320px;
+            }
+        }
+    }
+    .home__services{
+        article{
+            background-color: red;
+        }
+        
+        #installation , #repairs , #sealing{
+           background: url("../../public/images/flooring-1.jpg");
+           background-size: 100% 100%;
+        }
+        #sealing{
+              background: url("../../public/images/flooring-4.jpg");
+        }
+        #repairs{
+              background: url("../../public/images/flooring-10.jpg");
+              background-size: 100% 100%;
+              
+        }
+
+    }
+}
